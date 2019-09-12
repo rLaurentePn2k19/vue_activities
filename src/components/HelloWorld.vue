@@ -1,8 +1,9 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <button class="btn btn-primary">LIKE</button>
-  </div>
+    <h1>{{ "CLick to login" }}</h1>
+      <button class="btn btn-primary" data-toggle="modal">Login</button>
+</div>
+  
 </template>
 
 <script>
