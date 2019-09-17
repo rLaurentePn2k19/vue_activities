@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import VModal from 'vue-js-modal'
 
+
 Vue.use(VModal)
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
