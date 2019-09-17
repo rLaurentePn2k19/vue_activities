@@ -85,11 +85,11 @@ export default {
   methods: {
     login(){
       if(this.input.username != "rCute69" && this.input.password != "qwerty123" || this.input.username == "" && this.input.password == ""){
-        window.alert("Invalid username or password");
+        this.$swal("Invalid username or password");
         console.log(this.input.username)
         console.log(this.input.password)
       }else{
-        window.alert("Welcome "+ this.input.username)
+        this.$swal("Welcome "+ this.input.username , "success")
         console.log(this.input.username)
         console.log(this.input.password)
       }
