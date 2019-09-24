@@ -1,10 +1,12 @@
+
 // let beforeEnter = (to, from, next) => {
 //     // AUTH.currentPath = to.path
 //     next()
 // }
 
-// var devRoutes = []
+
 // let app = require('./app.js')
+// var devRoutes = []
 // devRoutes = devRoutes.concat(app.default.routes)
 // for (let x = 0; x < devRoutes.length; x++) {
 //     devRoutes[x]['beforeEnter'] = beforeEnter
@@ -12,9 +14,9 @@
 
 // let routes = [
 //     {
-//         path: '/',
+//         path: '/login',
 //         name: 'home',
-//         component: resolve => require(['../modules/basic/Login.vue'], resolve),
+//         component: resolve => require(["../modules/basic/Login.vue"], resolve),
 //         beforeEnter: beforeEnter
 //     }
 // ]

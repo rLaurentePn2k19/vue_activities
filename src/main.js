@@ -6,7 +6,8 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import VModal from 'vue-js-modal'
 import VueSweetalert2 from 'vue-sweetalert2'
 import { mdbContainer, mdbRow, mdbCol, mdbInput, mdbTextarea, mdbBtn, mdbIcon, mdbModal, mdbModalHeader, mdbModalBody, mdbModalFooter } from 'mdbvue'
-import router from './router'
+import router from 'src/router'
+
 
 Vue.use({ mdbContainer, mdbRow, mdbCol, mdbInput, mdbTextarea, mdbBtn, mdbIcon, mdbModal, mdbModalHeader, mdbModalBody, mdbModalFooter })
 Vue.use(VModal)

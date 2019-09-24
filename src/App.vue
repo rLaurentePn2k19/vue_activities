@@ -7,8 +7,8 @@
 
 <script>
 // import Form from './components/Form.vue'
-import Header from './components/frame/Header.vue'
-import AppBody from './components/frame/Body.vue'
+import Header from 'components/frame/Header.vue'
+import AppBody from 'components/frame/Body.vue'
  
 export default {
   name: 'app',

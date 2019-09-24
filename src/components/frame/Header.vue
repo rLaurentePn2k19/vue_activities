@@ -1,7 +1,7 @@
 <template>
 <div>
   <b-navbar toggleable="lg" type="dark" variant="info">
-    <b-navbar-brand href="#">MyFirstApp</b-navbar-brand>
+    <b-navbar-brand href="#" id="title">MyFirstApp</b-navbar-brand>
     
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
@@ -13,12 +13,17 @@
   </b-navbar>
 </div>
 </template>
-<style scoped>
+<style scoped lang="scss">
 
+@import "assets/color.scss";
+
+#title{
+  color: $danger !important;
+}
 </style>
 
 <script>
-import ROUTER from '../../router'
+import ROUTER from 'src/router'
 export default {
     methods: {
         redirect(route){
